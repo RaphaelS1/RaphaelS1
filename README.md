@@ -1,4 +1,4 @@
-### Hi there 👋
+# 👋 :exclamation:
 
 ![GitHub](https://img.shields.io/badge/GitHub-green?link=http://github.com/RaphaelS1&logo=GitHub)
 ![Gitter](https://img.shields.io/badge/Gitter-brightgreen?link=https://gitter.im/xoopR/community&logo=Gitter)
