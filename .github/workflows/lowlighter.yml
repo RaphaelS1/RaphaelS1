@@ -14,4 +14,4 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year # Display full year instead of half year
           user: RaphaelS1
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_PAT }}
