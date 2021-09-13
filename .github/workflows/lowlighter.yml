@@ -24,8 +24,6 @@ jobs:
           plugin_gists: yes
           plugin_followup: yes
           plugin_lines:  yes
-          plugin_activity: yes
-          plugin_activity_skipped: RaphaelS1
           plugin_achievements: yes
           plugin_notable: yes
           plugin_repositories: yes
