@@ -33,9 +33,6 @@ jobs:
           plugin_notable: yes
           plugin_repositories: yes
           plugin_repositories_featured: distr6, set6, mlr3proba, mlr3extralearners
-          plugin_music: yes
-          plugin_music_provider: spotify
-          plugin_music_token: ${{ secrets.SPOTIFY_ID }}, ${{ secrets.SPOTIFY_SECRET }}, ${{ secrets.SPOTIFY_REFRESH }} 
           plugin_tweets: yes
           plugin_tweets_token: ${{ secrets.TWITTER_TOKEN }}
           plugin_stackoverflow: yes
