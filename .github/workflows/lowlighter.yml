@@ -15,6 +15,7 @@ jobs:
           token: ${{ secrets.METRICS }}
           config_timezone: Europe/London
           repositories_affiliations: ""
+          commits_authoring: raphaelsonabend@gmail.com, raphael.sonabend.15@ucl.ac.uk, r.sonabend@imperial.ac.uk
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year # Display full year instead of half year
           plugin_languages: yes
