@@ -14,6 +14,7 @@ jobs:
           user: RaphaelS1
           token: ${{ secrets.METRICS }}
           config_timezone: Europe/London
+          repositories_affiliations: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year # Display full year instead of half year
           plugin_languages: yes
