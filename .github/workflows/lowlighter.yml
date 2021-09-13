@@ -1,2 +1,16 @@
-- name: Metrics embed
-  uses: lowlighter/metrics@v3.13
+
+# Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
+name: Metrics
+on:
+  schedule: [{cron: "0 12 * * *"}]
+  push: 
+  workflow_dispatch:
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year # Display full year instead of half year
+          user: RaphaelS1
