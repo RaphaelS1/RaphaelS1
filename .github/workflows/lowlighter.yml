@@ -11,7 +11,34 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year # Display full year instead of half year
           user: RaphaelS1
           token: ${{ secrets.METRICS }}
+          config_timezone: Europe/London
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year # Display full year instead of half year
+          plugin_languages: yes
+          plugin_introduction: yes
+          plugin_habits: yes
+          plugin_habits_charts: yes
+          plugin_licenses: yes
+          plugin_contributors: yes
+          plugin_gists: yes
+          plugin_followup: yes
+          plugin_lines:  yes
+          plugin_traffic: yes
+          plugin_stargazers: yes
+          plugin_activity: yes
+          plugin_achievements: yes
+          plugin_notable: yes
+          plugin_repositories: yes
+          plugin_repositories_featured: distr6, set6, mlr3proba, mlr3extralearners
+          plugin_skyline: yes
+          plugin_music: yes
+          plugin_tweets: yes
+          plugin_tweets_token: AAAAAAAAAAAAAAAAAAAAAK6cJwEAAAAAJVA19e6OmfchlhSDuZJ4VI5OFig%3DMUd1tReRucKATIXxkvv5o23hnt4et9xbTBNxHR0PB7utFFaoGb
+          plugin_stackoverflow: yes
+          plugin_stackoverflow_user: 11815170
+          plugin_screenshot: yes
+          plugin_screenshot_url: http://www.raphaelsonabend.co.uk/
+          
+
