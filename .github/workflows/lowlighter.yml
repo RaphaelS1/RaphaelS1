@@ -13,6 +13,7 @@ jobs:
         with:
           user: RaphaelS1
           token: ${{ secrets.METRICS }}
+          isHireable: false
           config_timezone: Europe/London
           commits_authoring: raphaelsonabend@gmail.com, raphael.sonabend.15@ucl.ac.uk, r.sonabend@imperial.ac.uk
           plugin_isocalendar: yes
