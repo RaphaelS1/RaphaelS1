@@ -14,8 +14,8 @@ jobs:
           user: RaphaelS1
           token: ${{ secrets.METRICS }}
           isHireable: false
+          filename: web-metrics.svg
           config_timezone: Europe/London
-          config_display: large
           commits_authoring: raphaelsonabend@gmail.com, raphael.sonabend.15@ucl.ac.uk, r.sonabend@imperial.ac.uk
           plugin_languages: yes
           plugin_languages_ignored: html, css, dockerfile, JavaScript, TypeScript
