@@ -15,6 +15,7 @@ jobs:
           token: ${{ secrets.METRICS }}
           isHireable: false
           filename: web-metrics.svg
+          config_display: large
           config_timezone: Europe/London
           commits_authoring: raphaelsonabend@gmail.com, raphael.sonabend.15@ucl.ac.uk, r.sonabend@imperial.ac.uk
           plugin_isocalendar: yes
