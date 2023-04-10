@@ -2,7 +2,7 @@
 # Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
 name: Metrics
 on:
-  schedule: [{cron: "0 4 * * *"}]
+  schedule: [{cron: "0 0 * * 0"}]
   push: 
   workflow_dispatch:
 jobs:
