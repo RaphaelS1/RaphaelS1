@@ -29,6 +29,4 @@ jobs:
           plugin_achievements: yes
           plugin_notable: yes
           plugin_repositories: yes
-          plugin_repositories_featured: distr6, mlr3proba, survivalmodels, mlr-org/mlr3book, SurvivalAnalysis.jl
-          plugin_tweets: yes
-          plugin_tweets_token: ${{ secrets.TWITTER_TOKEN }}
+          plugin_repositories_featured: xoopR/distr6, mlr-org/mlr3proba, survivalmodels, mlr-org/mlr3book, SurvivalAnalysis.jl
